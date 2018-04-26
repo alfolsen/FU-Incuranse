@@ -1,13 +1,70 @@
 .table-box{
     border:solid 1px black;
+    font-size: 30px;
+    width:80%;
+    margin-left:5%;
 }
 
 
 .testing {
     color:green;
     border:solid 1px black;
+    height:2em;
+    width:12em;
+    border-collapse: collapse;
 }
 
 .padding-1em{
+    padding:1.5em;
+}
+
+.invoice-box{
+    margin-left:45%;
+    margin-top:5%;
+}
+
+.border-headliner{
+    border-bottom:1px solid black;
+    margin-right:50%;
+}
+
+.margin-top{
+    padding-bottom:5em;
+    margin-right:2em;
+}
+
+td, th{
+    border:solid 1px black;
     padding:1em;
+}
+
+td {
+    font-size: 20px;
+    text-align:left;
+}
+
+#collapse {
+    border-collapse: collapse;
+}
+
+.margin-FU{
+    margin-left:5em;
+    margin-top:1em;
+}
+
+.margin-dollah{
+    margin-top:3em;
+    margin-left:1em;
+}
+
+.button-positioning{
+    margin-left:10%;
+    height:2em;
+    width:4em;
+}
+
+.button-positioning2{
+    margin-left:25%;
+    height:2em;
+    width:4em;
 }
