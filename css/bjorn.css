@@ -89,3 +89,25 @@ td {
     width:6em;
 }
 
+.totalprice{
+    height:2em;
+    width:12em;
+    border:solid 1px black;
+    margin-left:75%;
+}
+
+.white{
+    background-color: white;
+}
+
+.proceed-button {
+    height:5em;
+    width:9em;
+    border:solid 1px black;
+    margin-left:78.9%;
+    margin-top:2em;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
