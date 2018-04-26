@@ -1,0 +1,12 @@
+.img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.img-portrait-md{
+    height: 200px;
+    width: 150px;
+}
+.img-landscape-md{
+    height: 150px;
+    width: 300;
+}

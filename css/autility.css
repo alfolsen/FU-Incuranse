@@ -1,0 +1,28 @@
+.body{
+    margin: 0px;
+}
+img { 
+    max-width: 100%; 
+    height: auto; 
+}
+li,
+ul,
+ol{ list-style: none;
+    padding-left: 0;
+}
+a {
+    color: #00659c;
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #0088ce;
+}
+.bordered{
+    border: solid   1px black;
+}
