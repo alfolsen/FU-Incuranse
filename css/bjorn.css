@@ -35,7 +35,7 @@
 
 td, th{
     border:solid 1px black;
-    padding:1em;
+    
 }
 
 td {
@@ -68,3 +68,24 @@ td {
     height:2em;
     width:4em;
 }
+
+/*checkout page*/
+
+.check-box{
+    margin-left:45%;
+    margin-top:5%;
+    margin-bottom:7%;
+}
+
+.button-placement{
+    margin-left:13%;
+    height:3em;
+    width:6em;
+}
+
+.button-placement2{
+    margin-left:22%;
+    height:3em;
+    width:6em;
+}
+
