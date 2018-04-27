@@ -246,10 +246,25 @@
 }
 
 .card1{
-    height: 80%;
-    width: 99%;
-    margin: 0;
+    height: 60%;
+    width: 95%;
 }
+
+.card-desc {
+    height: 65%;
+    width: 98%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   /* transition: 0.3s; */
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+
+.card-pic{
+    height: 100%;
+    width: 95%;
+}
+
+
 
 .frow{
     display: flex;
@@ -315,7 +330,7 @@ width: 15%;
 
 /* Button */
 
-.top-lnav{
+.margin03{
     margin: 0.3%;
     
 }
@@ -335,4 +350,8 @@ margin:-1.4%;
 
 .max-width96{
     max-width: 98%;
+}
+
+.paddin{
+
 }
