@@ -8,7 +8,7 @@ var modal2 = document.getElementById('myModal2');
 
 
 
-//modal 1
+
 lifePush.onclick = function() {
     modal.style.display = "block";
 }
@@ -20,10 +20,24 @@ window.onclick = function(event) {
     }
 }
 
-
-//modal 1
 torPush.onclick = function() {
     modal2.style.display = "block";
 }
 
 
+//collapsible
+
+var collaps = document.getElementsByClassName("dropmenu1");
+var i;
+
+for(i = 0; i < collaps.lenght; i++) {
+    collaps[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropcontent1 = this.nextElementSibling;
+        if(dropcontent1.style.display === "block") {
+            dropcontent1.style.display="none";
+        } else {
+            dropcontent1.style.display="block";
+        }
+    });
+}
