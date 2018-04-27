@@ -137,16 +137,7 @@ td {
     width: 10%; 
 }
 
-/*modal 2 box*/
 
-.modal-content2 {
-    background-color: #bbc9c8;
-    margin-top:20%;
-    margin-left:20%; 
-    padding: 3em;
-    border: 1px solid #888;
-    width: 10%; 
-}
 
 .close {
     color: #aaa;
