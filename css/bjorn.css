@@ -21,6 +21,7 @@
 .invoice-box{
     margin-left:45%;
     margin-top:5%;
+    margin-bottom:5%;
 }
 
 .border-headliner{
@@ -126,7 +127,6 @@ td {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
 }
-/* the modal 1 box*/
 
 .modal-content1 {
     background-color: #bbc9c8;
@@ -153,3 +153,27 @@ td {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*Collapsible*/
+
+.dropmenu{
+    background-color: lightgoldenrodyellow;
+    color:black;
+    cursor:pointer;
+    /* padding:0.5; */
+    /* width:2em; */
+    text-align:left;
+    /* outline:none;
+    font-size:15px; */
+}
+.active, .dropmenu:hover{
+    background-color:darkcyan;
+}
+
+.dropcontent{
+    padding:3;
+    display:none;
+    overflow:hidden;
+    background-color:lightgoldenrodyellow;
+}
+
