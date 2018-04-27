@@ -84,13 +84,13 @@
 
                           <div class="flex-row-center">
                             <div class="flexy-row">
-                              <button type="button" name="Launch">Launch!</button>
+                              <button type="button" onclick="torpedoLaunch()" name="Launch">Launch!</button>
                             </div>
                             <div class="flexy-row">
-                              <button type="button" name="Launch">Launch!</button>
+                              <button type="button" onclick="torpedoLaunch()" name="Launch">Launch!</button>
                             </div>
                             <div class="flexy-row">
-                              <button type="button" name="Launch" style="padding:5px;">Launch!</button>
+                              <button type="button" onclick="torpedoLaunch()" name="Launch" style="padding:5px;">Launch!</button>
                             </div>
                           </div>
                           <div style="margin-bottom: 1%;">
@@ -112,4 +112,9 @@
 
         </div>
     </body>
+    <script type="text/javascript">
+function torpedoLaunch() {
+  alert("Torpedo has been launched,sit back and wait for payout");
+}
+    </script>
     </html>
