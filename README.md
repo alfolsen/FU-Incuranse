@@ -21,7 +21,7 @@ Salgs side - oversikt over kunder og salg
 Get Icons, by simply copying the "code" into text.
 &spades; &clubs; &hearts; &diams;
 
-for example:  type     & spades;   (without the whitespace between) as text, then it will become the spade icon.
+for example:  type     & spades;   (without the whitespace between & and spades;) as text, then it will become the spade icon.
 
 <p> &spades; </p>
 
