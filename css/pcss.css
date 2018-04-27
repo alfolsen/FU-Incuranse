@@ -123,6 +123,8 @@
     margin: auto;
 }
 
+
+
 /* Margin's end */
 
 /* border's start */
@@ -348,8 +350,12 @@ width: 15%;
 margin:-1.4%;
 }
 
+.margin05{
+    margin:0.5%;
+    }
+
 .viewport{
-    length:98%;
+    height:98%;
     width: 97%;
 }
 
@@ -357,6 +363,14 @@ margin:-1.4%;
     max-width: 98%;
 }
 
-.paddin{
 
+/* text styling */
+
+.uline{
+    text-decoration: underline;
 }
+
+.fsize55{
+    font-size: 55%;
+}
+
