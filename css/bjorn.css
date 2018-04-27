@@ -21,6 +21,7 @@
 .invoice-box{
     margin-left:45%;
     margin-top:5%;
+    margin-bottom:5%;
 }
 
 .border-headliner{
@@ -155,7 +156,7 @@ td {
 
 /*Collapsible*/
 
-.dropmenu1{
+.dropmenu{
     background-color: lightgoldenrodyellow;
     color:black;
     cursor:pointer;
@@ -165,11 +166,11 @@ td {
     /* outline:none;
     font-size:15px; */
 }
-.active, .dropmenu1:hover{
+.active, .dropmenu:hover{
     background-color:darkcyan;
 }
 
-.dropcontent1{
+.dropcontent{
     padding:3;
     display:none;
     overflow:hidden;
