@@ -239,10 +239,16 @@
 
 .card {
     height: 100%;
-    width: 30%;
+    width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+   /* transition: 0.3s; */
     border-radius: 5px; /* 5px rounded corners */
+}
+
+.card1{
+    height: 80%;
+    width: 99%;
+    margin: 0;
 }
 
 .frow{
@@ -253,13 +259,76 @@
 .ansatt-main-content {
     width: 35em;
 }
+
+.products-main-content {
+    width: 100em;
+}
+
 /* */
 .fit{
     object-fit: fill;
 }
 
+
 /* Overflow */
 
 .of-hidden{
+overflow: hidden;
+}
 
+.break{
+    word-wrap: break-word;
+}
+
+of-scroll{
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+/* */
+.img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.img-portrait-md{
+    height: 200px;
+    width: 150px;
+}
+
+.img-landscape-md{
+    height: 150px;
+    width: 300px;
+}
+
+.size-small{
+height: 15%;
+width: 15%;
+}
+
+.contain{
+    object-fit: scale-down;
+}
+
+.Tcenter{
+    text-align: center;
+}
+
+/* Button */
+
+.btn-rnav{
+    margin: 0.3%;
+    
+}
+
+.btn-rnav:hover{
+   background-color: lightgrey;
+}
+
+.margin-negative-14{
+margin:-1.4%;
+}
+
+.viewport{
+    length:98%;
+    width: 97%;
 }
