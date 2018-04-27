@@ -315,12 +315,12 @@ width: 15%;
 
 /* Button */
 
-.btn-rnav{
+.top-lnav{
     margin: 0.3%;
     
 }
 
-.btn-rnav:hover{
+.top-lnav:hover{
    background-color: lightgrey;
 }
 
@@ -331,4 +331,8 @@ margin:-1.4%;
 .viewport{
     length:98%;
     width: 97%;
+}
+
+.max-width96{
+    max-width: 98%;
 }
