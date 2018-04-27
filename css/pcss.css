@@ -246,10 +246,11 @@
 }
 
 .card1{
-    height: 80%;
-    width: 99%;
-    margin: 0;
+    height: 60%;
+    width: 95%;
 }
+
+
 
 .frow{
     display: flex;
@@ -315,7 +316,7 @@ width: 15%;
 
 /* Button */
 
-.top-lnav{
+.margin03{
     margin: 0.3%;
     
 }
@@ -335,4 +336,8 @@ margin:-1.4%;
 
 .max-width96{
     max-width: 98%;
+}
+
+.paddin{
+
 }
