@@ -109,7 +109,12 @@ grid-column: 1 /2;
     width: 100px;
     padding: 10px;
 }
-
+.flex-box-200{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    padding: 1px;
+}
 
 .flex-carusell{
     height:600px;

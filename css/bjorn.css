@@ -1,0 +1,164 @@
+.table-box{
+    border:solid 1px black;
+    font-size: 30px;
+    width:80%;
+    margin-left:5%;
+}
+
+
+.testing {
+    color:green;
+    border:solid 1px black;
+    height:2em;
+    width:12em;
+    border-collapse: collapse;
+}
+
+.padding-1em{
+    padding:1.5em;
+}
+
+.invoice-box{
+    margin-left:45%;
+    margin-top:5%;
+}
+
+.border-headliner{
+    border-bottom:1px solid black;
+    margin-right:50%;
+}
+
+.margin-top{
+    padding-bottom:5em;
+    margin-right:2em;
+}
+
+td, th{
+    border:solid 1px black;
+    
+}
+
+td {
+    font-size: 20px;
+    text-align:left;
+}
+
+#collapse {
+    border-collapse: collapse;
+}
+
+.margin-FU{
+    margin-left:5em;
+    margin-top:1em;
+}
+
+.margin-dollah{
+    margin-top:3em;
+    margin-left:1em;
+}
+
+.button-positioning{
+    margin-left:10%;
+    height:2em;
+    width:4em;
+}
+
+.button-positioning2{
+    margin-left:25%;
+    height:2em;
+    width:4em;
+}
+
+/*checkout page*/
+
+.check-box{
+    margin-left:40%;
+    margin-top:5%;
+    margin-bottom:7%;
+}
+
+.button-placement{
+    margin-left:13%;
+    height:3em;
+    width:6em;
+}
+
+.button-placement2{
+    margin-left:22%;
+    height:3em;
+    width:6em;
+}
+
+.totalprice{
+    height:2em;
+    width:12em;
+    border:solid 1px black;
+    margin-left:75%;
+}
+
+.white{
+    background-color: white;
+}
+
+.proceed-button {
+    height:5em;
+    width:9em;
+    border:solid 1px black;
+    margin-left:78.9%;
+    margin-top:2em;
+}
+
+.cursor-pointer{
+    cursor:pointer;
+}
+
+/*Modal*/
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+/* the modal 1 box*/
+
+.modal-content1 {
+    background-color: #bbc9c8;
+    margin-top:40%;
+    margin-left:30%; 
+    padding: 3em;
+    border: 1px solid #888;
+    width: 10%; 
+}
+
+/*modal 2 box*/
+
+.modal-content2 {
+    background-color: #bbc9c8;
+    margin-top:20%;
+    margin-left:20%; 
+    padding: 3em;
+    border: 1px solid #888;
+    width: 10%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
