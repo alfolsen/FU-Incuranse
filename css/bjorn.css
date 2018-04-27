@@ -1,5 +1,5 @@
 .table-box{
-    border:solid 1px black;
+    border:solid 1px rgb(54, 224, 216);
     font-size: 30px;
     width:80%;
     margin-left:5%;
@@ -7,7 +7,7 @@
 
 
 .testing {
-    color:green;
+    color:pink;
     border:solid 1px black;
     height:2em;
     width:12em;
@@ -21,6 +21,7 @@
 .invoice-box{
     margin-left:45%;
     margin-top:5%;
+    margin-bottom:5%;
 }
 
 .border-headliner{
@@ -34,13 +35,14 @@
 }
 
 td, th{
-    border:solid 1px black;
+    border:solid 1px rgb(54, 224, 216);
     
 }
 
 td {
     font-size: 20px;
     text-align:left;
+    color:red;
 }
 
 #collapse {
@@ -126,7 +128,6 @@ td {
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
 }
-/* the modal 1 box*/
 
 .modal-content1 {
     background-color: #bbc9c8;
@@ -137,16 +138,7 @@ td {
     width: 10%; 
 }
 
-/*modal 2 box*/
 
-.modal-content2 {
-    background-color: #bbc9c8;
-    margin-top:20%;
-    margin-left:20%; 
-    padding: 3em;
-    border: 1px solid #888;
-    width: 10%; 
-}
 
 .close {
     color: #aaa;
@@ -162,3 +154,27 @@ td {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*Collapsible*/
+
+.dropmenu{
+    background-color: lightgoldenrodyellow;
+    color:black;
+    cursor:pointer;
+    /* padding:0.5; */
+    /* width:2em; */
+    text-align:left;
+    /* outline:none;
+    font-size:15px; */
+}
+.active, .dropmenu:hover{
+    background-color:darkcyan;
+}
+
+.dropcontent{
+    padding:3;
+    display:none;
+    overflow:hidden;
+    background-color:lightgoldenrodyellow;
+}
+
