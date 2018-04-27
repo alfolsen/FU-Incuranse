@@ -1,4 +1,4 @@
-.navbar{
+.gnavbar{
     background-color: silver;
     color: black;
     position: fixed;
@@ -51,7 +51,7 @@ margin: 0px;
   height: 100vh;
   width: 100vw;
 }
-.layout{
+.glayout{
   display: grid;
   height: 100%;
   grid-template-rows: 10% 1fr 5%;

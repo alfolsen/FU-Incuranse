@@ -30,8 +30,8 @@ li {
   display: flex;
   flex-wrap: nowrap;
   background-color: #ececec;
-  justify-content: space-around;
-  height: -webkit-fill-available;
+  justify-content: space-between;
+  height: auto;
   flex-direction: column;
 }
 .flex-item {
@@ -61,7 +61,7 @@ margin: auto;
   margin: 0px;
 }
 
-.flex-row {
+.gflex-row {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
