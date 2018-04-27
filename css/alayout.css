@@ -185,3 +185,10 @@ grid-column: 1 /2;
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
 }
+
+.index-pictures img {
+    margin: 10px;
+}
+.hight{
+    height: 150px;
+}
