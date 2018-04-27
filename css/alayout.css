@@ -38,10 +38,9 @@
 .justify-even{
     justify-content: space-evenly;
 }
-.justify-content-space-around{
-    justify-content: space-around;
+.aligne-space-between{
+    align-content: space-between
 }
-
 .overflow-auto{
     overflow: auto;
 }
@@ -185,4 +184,11 @@ grid-column: 1 /2;
     -webkit-box-shadow: inset 1px 1px 10px #333;
     -moz-box-shadow:    inset 1px 1px 10px #333;
     box-shadow:         inset 1px 1px 10px #333;
+}
+
+.index-pictures img {
+    margin: 10px;
+}
+.hight{
+    height: 150px;
 }

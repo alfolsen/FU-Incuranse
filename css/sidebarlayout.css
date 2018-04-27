@@ -1,0 +1,31 @@
+.gridcontainer{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 8% 30% 1fr;
+    height: 100%;
+}
+
+.bordersolid-yo{
+    border: solid;
+    color: black;
+}
+
+.side-bar{
+    grid-row: 1 / 4;
+    grid-column: 1;
+    
+    background-color: lightslategray;
+}
+
+    .left-main-container{
+        grid-row: 1/ 4;
+        grid-column: 2;
+       
+        background-color: lightblue;
+    }
+    .right-main-container{
+        grid-row: 1/ 4;
+        grid-column:  3;
+       
+        background-color: lightblue;
+    }

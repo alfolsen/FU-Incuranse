@@ -61,14 +61,18 @@ td {
 
 .button-positioning{
     margin-left:10%;
-    height:2em;
-    width:4em;
+    height:3em;
+    width:5em;
+    border-radius: 12px;
+    margin-bottom:1em;
 }
 
 .button-positioning2{
     margin-left:25%;
-    height:2em;
-    width:4em;
+    height:3em;
+    width:5em;
+    border-radius: 12px;
+    margin-bottom:1em;
 }
 
 /*checkout page*/
@@ -83,19 +87,21 @@ td {
     margin-left:13%;
     height:3em;
     width:6em;
+    border-radius: 12px;
 }
 
 .button-placement2{
     margin-left:22%;
     height:3em;
     width:6em;
+    border-radius: 12px;
 }
 
 .totalprice{
     height:2em;
     width:12em;
     border:solid 1px black;
-    margin-left:75%;
+    margin-left:70.5%;
 }
 
 .white{
